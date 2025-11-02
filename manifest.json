@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Frosted Overlay on Fotmob",
+  "version": "1.0",
+  "description": "在 class=\"css-1wwsq70-LSMatchStatusScore eoqm9d82\" 的元素上添加毛玻璃覆盖层，点击后消失。",
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": []
+}
+
