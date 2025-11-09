@@ -1,6 +1,6 @@
 // content.js
 (() => {
-  const SELECTOR = '.css-1wwsq70-LSMatchStatusScore.eoqm9d82';
+  const SELECTOR = '.css-1wgtcp0-LSMatchScoreAndRedCardsContainer';
   const PROCESSED_FLAG = 'data-frosted-added';
 
   // Insert minimal CSS for overlay animations (so we don't create separate css file)
